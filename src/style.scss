@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import 'extra';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body{
+    background: #242424;
+    color: rgb(255, 255, 255);
+    min-height: 100vh;
+    font-family: 'poppins';
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+  
+    nav {
+      display: flex;
+      gap: 20px;
+  
+      a {
+        text-decoration: none;
+        color: rgb(68, 221, 226);
+        font-size: 19px;
+      }
+  
+      .active {
+        text-shadow: 0 0 20px rgb(68, 221, 226);
+      }
+    }
+  }
+ 
+// hata alanı
+
+.error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  
+    p {
+      text-align: center;
+      span {
+        color: rgb(20, 220, 220);
+        margin-left: 5px;
+      }
+    }
+  
+    button {
+      font-family: monospace;
+      font-size: 17px;
+      max-width: 160px;
+      color: #fafafa;
+      text-transform: uppercase;
+      padding: 10px 20px;
+      border-radius: 10px;
+      border: 2px solid #fafafa;
+      background: #252525;
+      box-shadow: 3px 3px #fafafa;
+      cursor: pointer;
+      margin: 35px 0;
+    }
+  
+    button:active {
+      box-shadow: none;
+      transform: translate(3px, 3px);
+    }
+  }
+  
+  // liste sayfası
+.list-page {
+    padding: 20px;
+  }
+  
+  .job-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 50px;
+  }
+  
+  .card {
+    background: gray;
+    border-radius: 10px;
+    padding: 20px;
+  
+    .head {
+      display: flex;
+      justify-content: space-between;
+  
+      .left {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 40px;
+        margin-bottom: 20px;
+  
+        .letter {
+          background: rgb(0, 124, 128);
+          width: 60px;
+          height: 60px;
+          display: grid;
+          text-transform: uppercase;
+          place-items: center;
+          border-radius: 10px;
+          font-size: 30px;
+          text-shadow: 0 0 20px white;
+        }
+  
+        .info {
+          font-size: 20px;
+        }
+      }
+    }
+
+    .body {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 30px;
+    
+        .field {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+        }
+    
+        .status {
+          display: flex;
+    
+          p {
+            padding: 6px;
+            border-radius: 10px;
+          }
+        }
+      }
+    }
+
+    // Ekleme Sayfası
+.add-page {
+    min-height: 90vh;
+    display: grid;
+    place-items: center;
+  }
+  
+  .add-sec {
+    width: 70vw;
+    max-width: 700px;
+    box-shadow: 0 0 55px 0 rgb(68, 218, 226);
+    padding: 25px;
+  
+    form {
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+  
+      div {
+        display: flex;
+        flex-direction: column;
+      }
+  
+      div input,
+      div select {
+        padding: 10px 15px;
+        margin-top: 5px;
+        border-radius: 5px;
+        font-family: 'Poppins';
+      }
+  
+      div:last-child {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+
+  .filter-sec {
+    @extend .add-sec;
+    margin: 20px auto 80px;
+  
+    div:last-child {
+      align-items: unset;
+      button {
+        width: 100% !important;
+      }
+    }
+  }

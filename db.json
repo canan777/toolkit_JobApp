@@ -1,0 +1,58 @@
+{
+  "jobs": [
+    {
+      "id": "2",
+      "position": "Backend Dev",
+      "company": "Kodlama",
+      "location": "İstanbul",
+      "status": "Mülakat",
+      "type": "Tam Zamanlı",
+      "date": "3/30/2023"
+    },
+    {
+      "position": "native",
+      "company": "kodlasam.io",
+      "location": "Ankara",
+      "status": "Mulakat",
+      "type": "Tam zamanlı",
+      "id": "d5889608-f19d-47e9-a686-0bfbdb5cd099",
+      "date": "09.02.2024"
+    },
+    {
+      "position": "Data Scientist",
+      "company": "kod",
+      "location": "Ankara/Çankaya",
+      "status": "Reddedildi",
+      "type": "Staj",
+      "id": "9fad0311-b2ec-4ecf-94b2-d4a3a960b48c",
+      "date": "05.01.2024"
+    },
+    {
+      "position": "Frontend Developer",
+      "company": "Udemig",
+      "location": "İstanbul",
+      "status": "Mulakat",
+      "type": "Tam zamanlı",
+      "id": "d9a61761-6343-49fd-b424-983bf189fe23",
+      "date": "09.09.2024"
+    },
+    {
+      "position": "Product Manager",
+      "company": "Amazon",
+      "location": "Seattle",
+      "status": "Mülakat",
+      "type": "Yarı zamanlı",
+      "id": "6d8315a3-fa69-4f44-9b46-bc3e610a092e",
+      "date": "08.01.2024"
+    },
+    {
+      "id": "37879500-4b18-4615-9069-fd0ad4fc7acc",
+      "position": "Frontend Developer",
+      "company": "Udemig",
+      "location": "Ankara",
+      "status": "Devam Ediyor",
+      "type": "Yarı Zamanlı",
+      "date": "23.03.2024"
+    }
+  ]
+}
