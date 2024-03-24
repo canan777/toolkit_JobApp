@@ -1,4 +1,9 @@
-# Kütüphaneler
+# toolkit_JobApp
+
+<img src="./public/gif/toolkit_JobApp.gif"/>
+
+
+# Libraries
 - react-router-dom
 - axios
 - sass
@@ -8,4 +13,5 @@
 - @reduxjs/toolkit
 - uuid
 - react-icons
+
 # toolkit_JobApp

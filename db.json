@@ -10,33 +10,6 @@
       "date": "3/30/2023"
     },
     {
-      "position": "native",
-      "company": "kodlasam.io",
-      "location": "Ankara",
-      "status": "Mulakat",
-      "type": "Tam zamanlı",
-      "id": "d5889608-f19d-47e9-a686-0bfbdb5cd099",
-      "date": "09.02.2024"
-    },
-    {
-      "position": "Data Scientist",
-      "company": "kod",
-      "location": "Ankara/Çankaya",
-      "status": "Reddedildi",
-      "type": "Staj",
-      "id": "9fad0311-b2ec-4ecf-94b2-d4a3a960b48c",
-      "date": "05.01.2024"
-    },
-    {
-      "position": "Frontend Developer",
-      "company": "Udemig",
-      "location": "İstanbul",
-      "status": "Mulakat",
-      "type": "Tam zamanlı",
-      "id": "d9a61761-6343-49fd-b424-983bf189fe23",
-      "date": "09.09.2024"
-    },
-    {
       "position": "Product Manager",
       "company": "Amazon",
       "location": "Seattle",
@@ -46,13 +19,31 @@
       "date": "08.01.2024"
     },
     {
-      "id": "37879500-4b18-4615-9069-fd0ad4fc7acc",
+      "id": "6008624d-2b92-47eb-931f-75fe56c99e24",
       "position": "Frontend Developer",
-      "company": "Udemig",
+      "company": "Mimcode",
+      "location": "Ankara",
+      "status": "Devam Ediyor",
+      "type": "Tam Zamanlı",
+      "date": "24.03.2024"
+    },
+    {
+      "id": "b449ae8c-b1c9-4878-a8e0-f222112ea3ac",
+      "position": "Frontend Developer",
+      "company": "Mimcode",
       "location": "Ankara",
       "status": "Devam Ediyor",
       "type": "Yarı Zamanlı",
-      "date": "23.03.2024"
+      "date": "24.03.2024"
+    },
+    {
+      "id": "9ede5d54-2de8-41ce-8250-bd036f3fd72d",
+      "position": "Frontend Developer",
+      "company": "Mimcode",
+      "location": "Ankara",
+      "status": "Devam Ediyor",
+      "type": "Uzaktan",
+      "date": "24.03.2024"
     }
   ]
 }
